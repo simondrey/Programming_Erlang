@@ -12,8 +12,7 @@ do_delayed(Time, Fun) when is_function(Fun) ->
 
 my_spawn(Mod, Func, Args, Time) ->
     Pid = spawn(Mod, Func, Args),
-    %do_delayed(Time, fun() -> exit(Pid, kill) end).
-    do_delayed(Time, exit(Pid, kill)).
+    do_delayed(Time, fun() -> exit(Pid, kill) end).
 
 my_spawn2(Mod, Func, Args, Time) ->
     Pid = spawn(Mod, Func, Args),

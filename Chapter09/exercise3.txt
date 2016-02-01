@@ -1,0 +1,3 @@
+Q: Why is it a good idea to think about the types of a function in a module before you write the module? Is this always a good idea?
+
+A: By defining types I need to think about input and output of the function. So before I will try to "implement" a function's body, I need to understand what exactly I am going to achieve. Generally speaking it's good idea because I am focusing on things that are key for my code i.e. about the expected results. I could say that Erlang defining types is somehow similar to TDD: I need to know where I am going to. 

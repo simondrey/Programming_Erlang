@@ -1,0 +1,12 @@
+[Chapter01]> erl
+Erlang/OTP 18 [erts-7.1] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Eshell V7.1  (abort with ^G)
+1> io:format("Hello World!~n") 
+1> .
+Hello World!
+ok
+2> q() 
+2> .
+ok
+3> [Chapter01]> 

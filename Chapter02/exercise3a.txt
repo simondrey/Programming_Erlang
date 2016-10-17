@@ -1,0 +1,15 @@
+Erlang/OTP 18 [erts-7.1] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Eshell V7.1  (abort with ^G)
+1> pwd().
+/Users/szymondrejewicz/Projects/Erlang/Programming_Erlang
+ok
+2> cd("Chapter02").
+/Users/szymondrejewicz/Projects/Erlang/Programming_Erlang/Chapter02
+ok
+3> c(hello).
+{ok,hello}
+4> hello:start().
+Hello World!
+ok
+5> halt().
